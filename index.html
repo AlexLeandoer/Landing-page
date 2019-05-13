@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica SASS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header id="header">
+        <nav class="nav-top">
+            <div class="info">
+                <span>¿Tienes alguna pregunta?</span>
+                <a href="tel:958278060">
+                    <i class="fa fa-phone"></i> 
+                    958 278 060
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope-o"></i>
+                    info@escuelaartegranada.com
+                </a>
+            </div>
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                E-<span>Web</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">Escuela</a>
+                    <a class="nav-item nav-link" href="#">Cursos</a>
+                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link" href="#">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <h1>Cursos online</h1>
+        <h2>Html5 - Css - Php - MySql - Javascript - Wordpress</h2>
+        <a href="#">Más información</a>
+
+    </section>
+
+
+    <section id="bienvenida">
+        <h3>Bienveni@ a la plataforma E - <span class="primario">Web</span> </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ipsam! Quam, dolores adipisci assumenda quo eligendi unde maxime odit.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="img/icon_1.png" alt="">
+                    <h4>Expertos</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet adipisci, voluptate soluta ad pariatur perspiciatis?</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/icon_2.png" alt="">
+                    <h4>Recursos</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet adipisci, voluptate soluta ad pariatur perspiciatis?</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/icon_3.png" alt="">
+                    <h4>Cursos</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet adipisci, voluptate soluta ad pariatur perspiciatis?</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/icon_4.png" alt="">
+                    <h4>Premios</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet adipisci, voluptate soluta ad pariatur perspiciatis?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cursos">
+        <div class="container">
+            <div class="row text-center">
+                <div class="offset-md-2 col-md-8">
+                    <h2>Cursos online</span> </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ipsam! Quam, dolores adipisci assumenda quo eligendi unde maxime odit hic id fugit deserunt eveniet.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="img/curso1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4>Html5 & CSS3 & Sass</h4>
+                                <h5>Redu</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <hr>
+                                <div class="detalle">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    <span>20 Estudiantes</span>
+                                    <span class="ml-auto">130€</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="img/curso2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4>Desarrollo de Apps</h4>
+                                <h5>J. Luis</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <hr>
+                                <div class="detalle">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    <span>20 Estudiantes</span>
+                                    <span class="ml-auto">Gratuito</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="img/curso3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4>Frontend Avanzado</h4>
+                                <h5>Redu</h5>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <hr>
+                                <div class="detalle">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    <span>20 Estudiantes</span>
+                                    <span class="ml-auto">220€</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#">Ver todos los cursos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="noticias">
+        <div class="container">
+            <div class="row text-center">
+                <div class="offset-md-2 col-md-8">
+                    <h2>Noticias</span> </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ipsam! Quam, dolores adipisci assumenda
+                        quo eligendi unde maxime odit hic id fugit deserunt eveniet.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href=""> <img src="img/noticia1.jpg" alt="" class="img-fluid"></a>
+                    <div class="detalle">
+                        <div class="fecha">
+                            <span>21</span>
+                            <span>Feb</span>
+                        </div>
+                        <div class="resumen">
+                            <h3>Inserción laboral</h3>
+                            <i class="fa fa-clock-o"></i>
+                            <date>15:00 - 19-30</date>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt, officia nulla tempore ipsa ducimus incidunt fuga hic iure! Ad, consectetur. Nostrum, deleniti voluptatem? Accusamus illum vitae aperiam fuga…</p>
+                            <a href=""></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="img/noticia2.jpg" alt="" class="img-fluid">
+                    <div class="detalle">
+                        <div class="fecha">
+                            <span>27</span>
+                            <span>Abr</span>
+                        </div>
+                        <div class="resumen">
+                            <h3>Charla Web Union</h3>
+                            <i class="fa fa-clock-o"></i>
+                            <date>15:00 - 19-30</date>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt, officia nulla tempore ipsa ducimus
+                                incidunt fuga hic iure! Ad, consectetur. Nostrum, deleniti voluptatem? Accusamus illum vitae aperiam
+                                fuga…</p>
+                                <a href=""></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="img/noticia3.jpg" alt="" class="img-fluid">
+                    <div class="detalle">
+                        <div class="fecha">
+                            <span>1</span>
+                            <span>May</span>
+                        </div>
+                        <div class="resumen">
+                            <h3>Visita al CETIC</h3>
+                            <i class="fa fa-clock-o"></i>
+                            <date>15:00 - 19-30</date>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt, officia nulla tempore ipsa ducimus
+                                incidunt fuga hic iure! Ad, consectetur. Nostrum, deleniti voluptatem? Accusamus illum vitae aperiam
+                                fuga…</p>
+                                <a href=""></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="logo">E-<span>Web</span></h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quam culpa a, atque assumenda maiores voluptatibus officia sapiente.</p>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contactar</h4>
+                    <p>Email: Info.escuelaartegranada@gmail.com</p>
+                    <p>Tel: 958 2780 60</p>
+                    <p>Avda. Doctor Oloriz, 6. Granada, 18012</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Cursos</h4>
+                    <div class="cursos" >
+                        <p>Web</p>
+                        <p>Gráfico</p>
+                        <p>Informatica</p>
+                        <p>3D</p>
+                    </div>
+                    <div class="cursos">
+                        <p>Interiores</p>
+                        <p>Ciclos</p>
+                        <p>Fotografia</p>
+                        <p>Audio Visual</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <small class="copy">Copyright &copy2019 Todos los derechos reservados | Escuela Arte Granada</small>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js##"></script>
+
+</body>
+</html>

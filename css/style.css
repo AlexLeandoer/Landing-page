@@ -1,0 +1,76 @@
+.primario { color: #13bdee; }
+
+body, html { font-size: 15px; font-family: 'Roboto', sans-serif; color: #76777a; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Slab', sans-serif; font-weight: 700; color: #384158; }
+
+header .nav-top { background-color: #13bdee; color: #fff; display: flex; justify-content: space-around; align-items: center; }
+header .nav-top .info a { color: #fff; margin-left: 20px; }
+header .nav-top .login a { color: #384158; background-color: #eee; padding: 15px 50px; display: inline-block; text-decoration: none; text-transform: uppercase; letter-spacing: .1rem; font-weight: 500; transition: background-color .4s, color .4s; }
+header .nav-top .login a:hover { background-color: #384158; color: #fff; }
+header .navbar { padding: 20px 40px; }
+header .navbar a { color: #384158; font-size: 1.3rem; margin-right: 20px; transition: color .4s; }
+header .navbar a:hover { color: #13bdee; }
+header .navbar .active { border-bottom: solid 2px #13bdee; color: #13bdee; }
+header .navbar a.navbar-brand { font-family: "Roboto Slab", serif; letter-spacing: .05rem; font-size: 2rem; font-weight: 700; }
+header .navbar a.navbar-brand span { color: #13bdee; }
+
+#banner { width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: url("../img/fondoCabecera.jpg") center center no-repeat/cover; }
+#banner h1 { font-size: 4rem; }
+#banner h2 { font-size: 1.5rem; margin-bottom: 30px; }
+#banner a { background-color: #13bdee; color: #fff; padding: 15px 30px; border-radius: 30px; transition: background-color .4s, color .4s; }
+#banner a:hover { background-color: #384158; color: #fff; }
+
+#bienvenida { width: 100%; min-height: 75vh; text-align: center; background-color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; border-bottom: 1px solid #eee; }
+#bienvenida h3 { font-size: 2.2rem; color: #384158; }
+#bienvenida > p { max-width: 35%; margin: 20px 0 100px 0; line-height: 160%; letter-spacing: .05rem; }
+#bienvenida .col-md-3 { transition: box-shadow .5s; padding: 50px 20px; }
+#bienvenida .col-md-3 h4 { margin: 20px 0; }
+#bienvenida .col-md-3:hover { box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); }
+
+section#cursos { width: 100%; min-height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center; border-bottom: 1px solid #eee; }
+section#cursos h2 { margin-top: 100px; font-size: 2.5rem; font-weight: 700; }
+section#cursos p { margin-bottom: 100px; margin-top: 20px; }
+section#cursos .detalle { display: flex; align-items: center; }
+section#cursos .detalle i { margin-right: 5px; }
+section#cursos .detalle span:last-child { color: #13bdee; font-size: 1.2rem; font-weight: 600; font-family: "Roboto Slab", serif; letter-spacing: .1rem; }
+section#cursos a { text-decoration: none; color: #76777a; }
+section#cursos .col-12 a { background-color: #13bdee; color: #fff; padding: 20px 40px; margin-top: 40px; border-radius: 5px; text-transform: uppercase; display: inline-block; letter-spacing: .01rem; font-weight: 600; margin-bottom: 100px; }
+
+section#noticias { width: 100%; min-height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center; border-bottom: 1px solid #eee; }
+section#noticias h2 { margin-top: 100px; font-size: 2.5rem; font-weight: 700; }
+section#noticias p { margin-bottom: 100px; margin-top: 20px; }
+section#noticias img { border-radius: 7px; margin-bottom: 30px; }
+section#noticias .detalle { display: flex; align-items: start; }
+section#noticias .detalle .fecha { display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); padding: 5px 15px; border-radius: 5px; }
+section#noticias .detalle .fecha span { color: #13bdee; font-family: slab; }
+section#noticias .detalle .fecha span:first-child { font-size: 2rem; font-weight: 700; line-height: 90%; }
+section#noticias .detalle .fecha span:last-child { font-size: 1.4rem; font-weight: 500; }
+section#noticias .detalle .resumen { margin-left: 30px; text-align: justify; }
+
+footer { width: 100%; height: 50vh; background-color: #1E2434; display: flex; justify-content: center; align-items: center; color: #eee; }
+footer div .col-md-4 { margin-top: 50px; }
+footer div .col-md-4 p { font-weight: 200; font-size: .95rem; color: #B5B8BE; }
+footer .logo { font-size: 2rem; color: #eee; margin-bottom: 30px; }
+footer .logo span { color: #13bdee; }
+footer a .fa { background-color: #4B505D; color: #eee; border-radius: 50%; padding: 18px; width: 50px; height: 50px; text-align: center; transition: 0.2s all; margin-right: 10px; margin-top: 25px; }
+footer a .fa:hover { opacity: 0.7; }
+footer h4 { color: #eee; margin-bottom: 40px; }
+footer hr { margin-top: 60px; border: .4px solid #353A49; }
+footer .copy { color: #B5B8BE; display: flex; justify-content: center; align-items: center; font-size: 0.9rem; margin-top: 35px; }
+footer .cursos { display: inline-block; margin-right: 70px; }
+
+.titulo { background-color: #13bdee; width: 100%; height: 130px; display: flex; justify-content: cente; align-items: center; }
+.titulo h2 { font-size: 2.2rem; text-transform: uppercase; letter-spacing: .1rem; font-weight: 900; color: #eee; }
+
+section#noticia .ultimas-noticias { border: solid 1px #EEEEEE; padding: 20px; height: 52vh; }
+section#noticia .ultimas-noticias h5 { font-size: 1.3rem; text-transform: uppercase; }
+section#noticia .ultimas-noticias h5:after { width: 85px; height: 3px; background-color: #13bdee; margin-top: 10px; margin-bottom: 20px; content: ""; display: block; }
+section#noticia .ultimas-noticias .btn { margin-top: 10px; border: none; padding: 8px 75px; text-align: center; background-color: #384158; }
+section#noticia .ultimas-noticias ul li { margin-top: 20px; }
+section#noticia .ultimas-noticias ul li a { color: #384158; }
+section#noticia .descripcion { margin-top: 15px; padding: 20px; }
+section#noticia .compartir a .fa { color: #13bdee; border: 2px solid #13bdee; border-radius: 50%; font-size: 2rem; padding: 9px; width: 50px; height: 50px; text-align: center; transition: 0.2s all; margin-left: 20px; margin-right: 10px; margin-top: 15px; }
+section#noticia .compartir a .fa:hover { opacity: 0.7; }
+
+/*# sourceMappingURL=style.css.map */
